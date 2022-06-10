@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# react tutorial
+# Book Store
 
-> math-magicians is a simple calculator. It is an SPA and built with React.
+> book-store is a simple calculator. It is an SPA and built with React.
 ## Built With
 
 - React
@@ -12,11 +12,11 @@
 
 To get a local copy up and running follow these simple example steps.
 
-1- Copy this link `git@github.com:huseyinbiyik/math-magicians.git` <br>
+1- Copy this link `git@github.com:huseyinbiyik/book-store.git` <br>
 2- Get the directory that you want to clone the repository. <br>
 3- Open the command prompt in this directory. <br>
-4- Write `git clone git@github.com:huseyinbiyik/math-magicians.git` <br>
-5- Go to the repository folder in your command prompt `cd math-magicians`. <br>
+4- Write `git clone git@github.com:huseyinbiyik/book-store.git` <br>
+5- Go to the repository folder in your command prompt `cd book-store`. <br>
 6- Run `npm install` to install the dev dependencies for linters.
 
 ### Prerequisites
