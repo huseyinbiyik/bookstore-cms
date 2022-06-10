@@ -9,7 +9,7 @@ export default function AddBook() {
       <form>
         <input placeholder="Book Title" />
         <input placeholder="Book Author" />
-        <button>ADD BOOK</button>
+        <button type="submit">ADD BOOK</button>
       </form>
     </div>
   );
