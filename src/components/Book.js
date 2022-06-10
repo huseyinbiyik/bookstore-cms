@@ -1,7 +1,14 @@
 import React from 'react';
 
-export default function Book() {
+const Book = (props) => {
+  const { title, author } = props;
   return (
-    <div>Book</div>
+    <div>
+      <p>{title}</p>
+      <p>{author}</p>
+      <button>Delete</button>
+    </div>
   );
-}
+};
+
+export default Book;
