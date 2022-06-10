@@ -2,6 +2,15 @@ import React from 'react';
 
 export default function AddBook() {
   return (
-    <div>AddBook</div>
+    <div>
+      <h2>
+        ADD NEW BOOK
+      </h2>
+      <form>
+        <input placeholder="Book Title" />
+        <input placeholder="Book Author" />
+        <button>ADD BOOK</button>
+      </form>
+    </div>
   );
 }

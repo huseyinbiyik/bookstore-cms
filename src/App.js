@@ -7,6 +7,7 @@ import {
 import Books from './components/Books';
 import Header from './components/Header';
 import Categories from './components/Categories';
+import AddBook from './components/AddBook';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={<Books />} />
         <Route path="/categories" element={<Categories />} />
       </Routes>
+      <AddBook />
     </BrowserRouter>
   );
 }
