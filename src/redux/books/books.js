@@ -1,5 +1,5 @@
-const BOOK_ADDED = 'BOOK_ADDED';
-const BOOK_REMOVED = 'BOOK_REMOVED';
+const BOOK_ADDED = 'bookstore/books/ADD_BOOK';
+const BOOK_REMOVED = 'bookstore/books/BOOK_REMOVED';
 const initialState = [];
 
 export function bookAdded(book) {

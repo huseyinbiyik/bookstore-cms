@@ -1,4 +1,4 @@
-const STATUS_CHECKED = 'STATUS_CHECKED';
+const STATUS_CHECKED = 'bookstore/categories/CHECK_STATUS';
 const initialState = [];
 
 export function statusChecked() {
