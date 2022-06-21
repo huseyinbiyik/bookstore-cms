@@ -1,13 +1,13 @@
 const STATUS_CHECKED = 'STATUS_CHECKED';
 const initialState = [];
 
-export const = statusChecked() => {
+export function statusChecked() {
   return {
     type: STATUS_CHECKED,
   };
 }
 
-const categoriesReducer = (state = initialState, action) => {
+export default function categoriesReducer(state = initialState, action) {
   switch (action.type) {
     case STATUS_CHECKED:
       return 'Under construction';
@@ -15,5 +15,3 @@ const categoriesReducer = (state = initialState, action) => {
       return state;
   }
 }
-
-export default categoriesReducer;

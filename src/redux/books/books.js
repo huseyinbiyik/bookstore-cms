@@ -1,24 +1,22 @@
 const BOOK_ADDED = 'BOOK_ADDED';
 const BOOK_REMOVED = 'BOOK_REMOVED';
-const initialState = [],
+const initialState = [];
 
-export const bookAdded =  (book) => {
-  return { type: BOOK_ADDED,  payload: book }
+export function bookAdded(book) {
+  return { type: BOOK_ADDED, payload: book };
 }
 
-export const bookRemoved = (index) => {
-  return { type: BOOK_REMOVED }
+export function bookRemoved(index) {
+  return { type: BOOK_REMOVED, payload: index };
 }
 
-const bookReducer = (state = initialState, action ) => {
+export default function bookReducer(state = initialState, action) {
   switch (action.type) {
     case BOOK_ADDED:
-      return [...state, action.payload]
-      case BOOK_REMOVED:
-        return [...state.filter((book) => book !== action.payload)];
+      return [...state, action.payload];
+    case BOOK_REMOVED:
+      return [...state.filter((book) => book !== action.payload)];
     default:
-return state;
+      return state;
   }
 }
-
-export default bookReducer;
