@@ -4,6 +4,7 @@ import Book from './Book';
 
 export default function Books() {
   const data = useSelector((state) => state.bookReducer);
+  console.log(data);
   return (
     data.map((book) => <Book key={book.id} title={book.title} author={book.author} />)
 
