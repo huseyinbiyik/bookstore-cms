@@ -1,6 +1,9 @@
 const BOOK_ADDED = 'bookstore/books/ADD_BOOK';
 const BOOK_REMOVED = 'bookstore/books/BOOK_REMOVED';
-const initialState = [];
+const initialState = [{
+  title: 'The Hunger Games',
+  author: 'Suzanne Collins',
+}, { title: 'Les Miserables', author: 'Victor Hugo' }];
 
 export function bookAdded(book) {
   return { type: BOOK_ADDED, payload: book };
