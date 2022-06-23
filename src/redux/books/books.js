@@ -2,13 +2,13 @@
 
 const apiUrl = 'https://us-central1-bookstore-api-e63c8.cloudfunctions.net/bookstoreApi/apps/6d2XiqbsGJ6zQsrtUdmp';
 
-const BOOK_ADDED = 'bookstore/books/ADD_BOOK';
+// const BOOK_ADDED = 'bookstore/books/ADD_BOOK';
 const BOOK_REMOVED = 'bookstore/books/BOOK_REMOVED';
 const BOOK_DISPLAYED = 'bookstore/books/BOOK_DISPLAYED';
 
-export function bookAdded(book) {
-  return { type: BOOK_ADDED, payload: book };
-}
+// export function bookAdded(book) {
+//   return { type: BOOK_ADDED, payload: book };
+// }
 
 export function bookRemoved(book) {
   return { type: BOOK_REMOVED, payload: book };
@@ -24,6 +24,24 @@ export const fetchBook = () => (
     fetch(`${apiUrl}/books`)
       .then((response) => response.json())
       .then((json) => dispatch(bookDisplayed(json)));
+  }
+);
+
+export const bookAdded = (id, title, author, category = '-') => (
+  (dispatch) => {
+    fetch(`${apiUrl}/books`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        item_id: id,
+        title,
+        author,
+        category,
+      }),
+    })
+      .then(() => dispatch(fetchBook()));
   }
 );
 
