@@ -10,8 +10,6 @@ const Book = () => {
     dispatch(bookRemoved(bookToBeRemoved));
   };
 
-  console.log(data);
-
   return (
     <ul>
       {
