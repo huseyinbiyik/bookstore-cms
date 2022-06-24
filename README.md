@@ -1,11 +1,10 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
 # Book Store
 
-> book-store is a simple calculator. It is an SPA and built with React.
+> book-store is a simple book store app. It is an SPA and built with React.
 ## Built With
 
 - React
+- Redux
 - Webpack
 
 ## Getting Started
