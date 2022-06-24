@@ -6,6 +6,7 @@ header {
   align-items: center;
   justify-content: center;
   border-bottom: solid 1px #e8e8e8;
+  margin-bottom: 2.375rem;
 }
 
 .wrapper {
