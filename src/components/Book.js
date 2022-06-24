@@ -25,17 +25,17 @@ const Book = () => {
                 </li>
               </ul>
               <ul>
-                <li>
+                <li className="edit-buttons">
                   <button className="remove-button" type="button">
                     Comments
                   </button>
                 </li>
-                <li>
+                <li className="edit-buttons">
                   <button className="remove-button" type="button" onClick={() => handleClick(book)}>
                     Remove
                   </button>
                 </li>
-                <li>
+                <li className="edit-buttons">
                   <button className="remove-button" type="button">
                     Edit
                   </button>
