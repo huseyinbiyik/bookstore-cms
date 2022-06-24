@@ -42,9 +42,30 @@ const Book = () => {
                 </li>
               </ul>
             </div>
-            <div className="right-panel" />
-
-            ;
+            <div className="right-panel">
+              <div className="progress-container">
+                <div className="progress" />
+                <div className="completed">
+                  <span className="percentage">50%</span>
+                  <span className="completed-text">Completed</span>
+                </div>
+              </div>
+              <div className="chapter-container">
+                <ul className="chapter-list-container">
+                  <li className="current-chapter-text">
+                    Current Chapter
+                  </li>
+                  <li className="current-chapter-title">
+                    Chapter 17
+                  </li>
+                  <li className="chapter-update">
+                    <button type="submit" className="update-button">
+                      Update progress
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         ))
 }
