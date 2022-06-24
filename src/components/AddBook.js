@@ -11,12 +11,9 @@ export default function AddBook() {
 
   const handleForm = (e) => {
     e.preventDefault();
-    const newBook = {
-      id: uuidv4(),
+    dispatch(bookAdded(uuidv4(),
       title,
-      author,
-    };
-    dispatch(bookAdded(newBook));
+      author));
     setBook({
       title: '',
       author: '',
