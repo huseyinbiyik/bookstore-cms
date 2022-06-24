@@ -15,7 +15,7 @@ export const fetchBook = () => (
   }
 );
 
-export const bookAdded = (id, title, author, category = '-') => (
+export const bookAdded = (id, title, author, category = 'Other') => (
   (dispatch) => {
     fetch(`${apiUrl}/books`, {
       method: 'POST',

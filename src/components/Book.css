@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.single-book-container {
+  width: calc(100% - 200px);
+  height: 10.625rem;
+  margin-top: 1rem;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 2rem 9.188rem 1.625rem 1.688rem;
+  border-radius: 4px;
+  border: solid 1px #e8e8e8;
+  background-color: #fff;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.category {
+  width: 3.063rem;
+  height: 1.125rem;
+  margin: 0 2.438rem 0 0;
+  opacity: 0.5;
+  font-family: 'Montserrat', serif;
+  font-size: 0.875rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+}
+
+.book-title {
+  width: 12.313rem;
+  height: 1.813rem;
+  margin: 0.188rem 20.188rem 0 0;
+  font-family: 'RobotoSlab', serif;
+  font-size: 1.375rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.2px;
+  color: #121212;
+}
+
+.book-author {
+  width: 6.688rem;
+  height: 1.188rem;
+  margin: 0.25rem 0 0;
+  font-family: 'RobotoSlab', serif;
+  font-size: 0.875rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4386bf;
+}
+
+.edit-buttons {
+  text-align: center;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-top: 15px;
+  border-right: solid 1px #e8e8e8;
+}
+
+.edit-buttons:first-child {
+  padding-left: 0;
+}
+
+.edit-buttons:last-child {
+  border: none;
+}
+
+.remove-button {
+  font-family: RobotoSlab, serif;
+  font-size: 0.875rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4386bf;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  text-align: center;
+}
+
+.right-panel {
+  display: flex;
+  align-items: center;
+}
+
+.progress-container {
+  border-right: solid 1px #e8e8e8;
+  display: flex;
+}
+
+/* progress bar */
+.progress {
+  border-color: #379cf6 #379cf6 #dcdcdc #dcdcdc;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 5px;
+  height: 70px;
+  margin: 0 2rem;
+  width: 70px;
+  transform: rotate(50deg);
+}
+
+.completed {
+  display: flex;
+  flex-direction: column;
+}
+
+.percentage {
+  width: 4.25rem;
+  height: 2.438rem;
+  margin: 0.063rem 5.75rem 0 0.688rem;
+  font-family: Montserrat, serif;
+  font-size: 2rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+}
+
+.completed-text {
+  width: 5rem;
+  height: 1.125rem;
+  margin: 0.438rem 4.938rem 0.75rem 0.75rem;
+  opacity: 0.5;
+  font-family: Montserrat, serif;
+  font-size: 0.875rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+}
+
+.chapter-list-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.current-chapter-text {
+  width: 7.875rem;
+  height: 1.125rem;
+  margin: 0.063rem 3.625rem 0 3.688rem;
+  opacity: 0.5;
+  font-family: RobotoSlab, serif;
+  font-size: 0.813rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #121212;
+  text-transform: uppercase;
+}
+
+.current-chapter-title {
+  width: 4.688rem;
+  height: 1.313rem;
+  margin: 0.438rem 6.813rem 0.25rem 3.688rem;
+  font-family: RobotoSlab, serif;
+  font-size: 1rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.4px;
+  color: #121212;
+}
+
+.update-button {
+  font-family: RobotoSlab, serif;
+  font-size: 0.813rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #fff;
+  width: 11.5rem;
+  height: 2.063rem;
+  margin: 0.75rem 0 0.563rem 3.688rem;
+  padding: 0.438rem 1.188rem 0.5rem 1.375rem;
+  border-radius: 3px;
+  background-color: #0290ff;
+  text-transform: uppercase;
+  border: none;
+}
