@@ -1,6 +1,7 @@
-# Book Store
+#Bookstore CMS
 
-> book-store is a simple book store app. It is an SPA and built with React.
+> Bookstore CMS is a simple book management app. You can add or remove the books you want to keep. It is a SPA built with React, Redux, and BookStore API. 
+
 ## Built With
 
 - React
