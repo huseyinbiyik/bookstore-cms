@@ -1,4 +1,4 @@
-#Bookstore CMS
+##Bookstore CMS
 
 > Bookstore CMS is a simple book management app. You can add or remove the books you want to keep. It is a SPA built with React, Redux, and BookStore API. 
 
